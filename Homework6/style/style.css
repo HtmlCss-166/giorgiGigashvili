@@ -106,13 +106,14 @@ table{
 }
 
 #review:hover{
-    background-color: rgba(128, 128, 128, 0.33);
+    background-color: rgba(255, 255, 255, 0.657);
     color: white;
+    
 }
 
 #review:focus{
-    background-color: rgba(33, 33, 33, 0.643);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #button:hover{
@@ -143,4 +144,8 @@ table{
     margin-left: 5px;
     cursor: pointer;
     border-radius: 15px;
+}
+
+.input{
+    text-align: center;
 }
