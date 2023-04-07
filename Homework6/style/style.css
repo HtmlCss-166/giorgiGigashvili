@@ -1,0 +1,151 @@
+body{
+    background-color: moccasin;
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(/Homework6/Fonts/Caveat-VariableFont_wght.ttf);
+}
+
+#tit{
+    text-align: center;
+    font-family: caveat;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.headpics{
+    display: flex;
+}
+
+#onepic{
+    width: 33%;
+}
+
+#twopic{
+    width: 33%;
+}
+
+#threepic{
+    width: 33%;
+}
+
+#one{
+    border-radius: 10%;
+    
+}
+
+#two{
+    border-radius: 10%;
+}
+
+#three{
+    border-radius: 10%;
+}
+
+#one:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+#two:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+#three:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+#parag{
+    font-family: caveat;
+}
+
+#tableh{
+    background-color: #4caf50;
+    color: rgb(227, 227, 227);
+    text-align: left;
+}
+
+table{
+    border: solid 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-collapse: collapse;
+    font-family: caveat;
+    
+}
+
+#tablero:hover{
+    background-color: rgba(118, 118, 118, 0.268);
+    color: red;
+    
+}
+
+#tablert:hover{
+    background-color: rgba(118, 118, 118, 0.268);
+    color: red;
+    
+}
+
+#tablett:hover{
+    background-color: rgba(118, 118, 118, 0.268);
+    color: red;
+
+    
+}
+
+#review:hover{
+    background-color: rgba(255, 255, 255, 0.657);
+    color: white;
+    
+}
+
+#review:focus{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#button:hover{
+    background-color: rgba(0, 0, 0, 0.227);
+
+}
+
+#button:active{
+    background-color: #00ff08;
+}
+
+#button{
+    background-color: #039974e1;
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#review{
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px ;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.input{
+    text-align: center;
+}
