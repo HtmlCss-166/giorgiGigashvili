@@ -1,0 +1,147 @@
+:root{
+    --psize: 16px ;
+    --pcolor: white;
+}
+
+@font-face {
+    font-family: kavivanar;
+    src: url(/Homework10/Fonts/Kavivanar-Regular.ttf);
+}
+
+body{
+    background-color: black;
+    font-family: kavivanar;
+
+}
+
+nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+nav ul{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    color: var(--pcolor);
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul :hover{
+   -webkit-transform: scale(1.2);
+       -ms-transform: scale(1.2);
+           transform: scale(1.2);
+   -webkit-transition: 1s;
+   -o-transition: 1s;
+   transition: 1s;
+}
+
+#Photoslider{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-animation: Photo 15s infinite;
+            animation: Photo 15s infinite;
+}
+
+@-webkit-keyframes Photo {
+    0%{top: 0px; left: 0px;}
+    50%{top: 0px; left: 560px;}
+    100%{top: 0px; left: 0px;}
+}
+
+@keyframes Photo {
+    0%{top: 0px; left: 0px;}
+    50%{top: 0px; left: 560px;}
+    100%{top: 0px; left: 0px;}
+}
+
+.gridp{
+    display: -ms-grid;
+    display: grid;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+    padding: 0px;
+    -ms-grid-columns: auto 10px auto 10px auto;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    background-color: aqua;
+    border: 1px solid;
+    font-size: var(--psize);
+    text-align: center;
+}
+
+.grid-item::first-line{
+    color: red;
+}
+
+.grid-item::before{
+    content: "before property";
+    color: rgb(16, 86, 0);
+}
+
+.grid-item::after{
+    content: "after property";
+    color: blue;
+}
+
+#para{
+    color: var(--pcolor);
+    font-size: var(--psize);
+    text-align: center;
+
+}
+
+.foooter{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: blue;
+    
+}
+
+.menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu ul{
+    list-style: none;
+    margin-left: 150px;
+}
+
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:  none;
+    margin-left: 100px;
+}
+
+.menu ul li::first-letter{
+    text-transform: uppercase;
+    color: red;
+}
