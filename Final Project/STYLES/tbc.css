@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 245, 244);
+}
+
+/* NAVBAR */
+
+.topl{
+    background-color: rgb(255, 255, 255);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.topl h2{
+    font-size: 15px;
+    color: grey;
+}
+
+.topl nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/* FORMTAG */
+
+.formtag{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 20px;
+    border: solid 1px rgba(197, 197, 197, 0.623);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+#gadaxda{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+    line-height: 50px;
+    
+}
+
+#baratisnomeri{
+    width: 200px;
+    padding: 8px;
+}
+
+#tve{
+    width: 70px;
+    padding: 8px;
+}
+
+
+#weli{
+    width: 70px;
+    padding: 8px;
+}
+
+
+#ccv{
+    width: 65px;
+    padding: 8px;
+}
+
+.formtag label{
+    color: grey;
+}
+
+.gadaxda button{
+    margin-left: 100px;
+    padding: 25px;
+    background-color: rgb(255, 0, 128);
+    color: white;
+    font-size: 13px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.gadaxda button:hover{
+    cursor: pointer;
+    background-color: rgb(201, 0, 101);
+}
+
+/* COPYRIGHT */
+
+#verified{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#copyright{
+    text-align: center;
+    font-weight: 600;
+    font-family:monospace;
+    color: gray;
+}
